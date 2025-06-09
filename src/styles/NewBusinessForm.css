@@ -150,3 +150,24 @@ button[type="submit"]:hover {
   color: red;
   margin-top: 10px;
 }
+
+.markdown-body {
+  line-height: 1.6;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.markdown-body h3, .markdown-body h4 {
+  color: #2a4d8f;
+  margin-top: 1em;
+}
+
+.markdown-body ul {
+  padding-left: 1.5em;
+}
+
+.markdown-body li {
+  margin-bottom: 0.4em;
+}
