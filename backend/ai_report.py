@@ -17,20 +17,25 @@ def generate_business_report(requirements):
         "Content-Type": "application/json"
     }
 
+    # -------- SYSTEM PROMPT (English, Israeli context) ----------
     system_prompt = (
-        "You are a business compliance assistant. "
-        "Your job is to translate regulatory requirements into clear, step-by-step business reports. "
-        "For each requirement, explain:\n"
-        "- What it is and why it's needed\n"
-        "- Steps to comply (including links, documents, cost if known)\n"
-        "- Priority level and urgency\n"
-        "- Organize the report clearly by category and use friendly language"
+        "You are an expert advisor for business licensing **in Israel**. "
+        "Base every answer on the official Israeli regulatory framework, especially "
+        "Form 4.2A (Ministry of Interior).  Your report must be in clear English, "
+        "structured in Markdown (### section headers). For **each requirement**:\n"
+        "• Explain what it is and why it matters.\n"
+        "• List concrete steps to comply (links, documents, fees in NIS if known).\n"
+        "• Name the responsible Israeli authority (e.g., Ministry of Health, Fire & Rescue).\n"
+        "• State priority/urgency (High / Medium / Low).\n"
+        "Organize the report by category (Health, Fire Safety, Accessibility, etc.)."
     )
 
-    user_prompt = "Here is the list of business requirements:\n\n"
+    # -------- USER PROMPT -----------
+    user_prompt = "Here is the list of applicable business requirements:\n\n"
     for req in requirements:
         user_prompt += f"- {req['title']}: {req['description']}\n"
 
+    # -------- REQUEST BODY ----------
     body = {
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
         "messages": [
@@ -40,6 +45,8 @@ def generate_business_report(requirements):
         "temperature": 0.6,
         "max_tokens": 2000
     }
+
+    # ---------- DEBUG ----------
     print("📤 Sending to Groq:")
     print(json.dumps(body, indent=2, ensure_ascii=False))
 
@@ -48,9 +55,19 @@ def generate_business_report(requirements):
     if response.status_code == 200:
         report = response.json()["choices"][0]["message"]["content"]
 
-        # Save report to file
-        with open("business_compliance_report.txt", "w", encoding="utf-8") as f:
+        # ---------- SAVE TO FILE ----------
+        with open("reports/business_compliance_report.txt", "w", encoding="utf-8") as f:
             f.write(report)
+
+        """
+            os.makedirs("reports", exist_ok=True)
+    file_id = str(uuid.uuid4())
+    filename = f"{file_id}.md"        
+    filepath = os.path.join("reports", filename)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(report)
+         return report, f"/api/reports/{filename}"
+        """
 
         return report
     else:

@@ -82,8 +82,8 @@ def create_business():
 
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(report)
-
-        download_url = f"http://localhost:5000/api/reports/{filename}"
+        download_url = f"/api/reports/{filename}"
+       # download_url = f"http://localhost:5000/api/reports/{filename}"
 
         return jsonify({
             "report": report,

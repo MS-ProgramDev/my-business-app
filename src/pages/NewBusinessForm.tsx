@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/NewBusinessForm.css";
+import ReactMarkdown from "react-markdown";
 
 const NewBusinessForm = () => {
   const [form, setForm] = useState({
@@ -169,10 +170,13 @@ const NewBusinessForm = () => {
       {reportText && (
         <div className="report-section">
           <h3>AI Business Report</h3>
-          <pre>{reportText}</pre>
+          
+         <ReactMarkdown components={{
+            div: ({node, ...props}) => <div className="markdown-body" {...props} />
+          }}>{reportText}</ReactMarkdown>
 
           {downloadLink && (
-            <a href={downloadLink} download target="_blank" rel="noopener noreferrer">
+            <a href={`http://localhost:5000${downloadLink}`} download target="_blank" rel="noopener noreferrer">
               <button className="download-btn">Download Report</button>
             </a>
           )}
