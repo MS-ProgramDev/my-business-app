@@ -13,10 +13,11 @@ const NewBusinessForm = () => {
   });
 
   const [requirements, setRequirements] = useState<any[]>([]);
-  const [error, setError] = useState(""); // Error message
-  const [loading, setLoading] = useState(false); // Optional: show loader
+  const [reportText, setReportText] = useState(""); // New: AI report text
+  const [downloadLink, setDownloadLink] = useState(""); // New: download URL
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  // Handle input change
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = e.target;
     setForm((prev) => ({
@@ -25,12 +26,13 @@ const NewBusinessForm = () => {
     }));
   };
 
-  // Handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setError("");
     setRequirements([]);
+    setReportText("");
+    setDownloadLink("");
 
     try {
       const response = await fetch("http://localhost:5000/api/business", {
@@ -49,11 +51,20 @@ const NewBusinessForm = () => {
 
       const data = await response.json();
 
-      if (!data.requirements || data.requirements.length === 0) {
-        setRequirements([]);
-        setError("No matching requirements found.");
-      } else {
+      if (data.message) {
+        setError(data.message);
+      }
+
+      if (data.requirements) {
         setRequirements(data.requirements);
+      }
+
+      if (data.report) {
+        setReportText(data.report);
+      }
+
+      if (data.download_url) {
+        setDownloadLink(data.download_url);
       }
 
     } catch (err) {
@@ -101,7 +112,6 @@ const NewBusinessForm = () => {
 
       <div className="features-group">
         <p className="features-title">Select Business Features:</p>
-
         <div className="feature-options">
           <button
             type="button"
@@ -141,10 +151,8 @@ const NewBusinessForm = () => {
         {loading ? "Submitting..." : "Submit"}
       </button>
 
-      {/* Error Message */}
       {error && <p className="error">{error}</p>}
 
-      {/* Requirements Display */}
       {requirements.length > 0 && (
         <div className="requirements">
           <h3>Matched Requirements</h3>
@@ -155,6 +163,19 @@ const NewBusinessForm = () => {
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {reportText && (
+        <div className="report-section">
+          <h3>AI Business Report</h3>
+          <pre>{reportText}</pre>
+
+          {downloadLink && (
+            <a href={downloadLink} download target="_blank" rel="noopener noreferrer">
+              <button className="download-btn">Download Report</button>
+            </a>
+          )}
         </div>
       )}
     </form>
