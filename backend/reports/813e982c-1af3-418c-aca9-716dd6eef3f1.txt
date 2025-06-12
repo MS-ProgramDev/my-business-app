@@ -1,0 +1,49 @@
+Here are the compliance reports for each requirement:
+
+**1. Gas System Approval**
+
+* **Name**: Gas System Approval
+* **What it is and why it's needed**: This approval is required for businesses that use gas for cooking, heating, or other purposes. The goal is to ensure that gas systems are installed, maintained, and operated safely to prevent accidents and protect public health.
+* **Steps to comply**:
+	1. Ensure that your business uses gas for any purpose.
+	2. Verify that your gas system is installed and maintained by a licensed professional.
+	3. Obtain a Gas System Approval certificate from the relevant authorities.
+* **Estimated cost (in NIS)**: 500 - 2,000 (dependent on the complexity of the gas system and the approval process)
+* **Estimated time to complete**: 2-6 weeks (dependent on the approval process and the complexity of the gas system)
+* **Responsible authority**: Israel Ministry of Energy and the local municipality
+* **Priority level**: High
+* **Useful links**: 
+	+ https://www.gov.il/en/topics/gas-systems (in Hebrew)
+	+ https://www.iea.gov.il/ (Israel Ministry of Energy, in English)
+
+**2. Police Exemption Notice**
+
+* **Name**: Police Exemption Notice
+* **What it is and why it's needed**: Certain businesses may be exempt from police requirements, such as security checks or background checks, under specific conditions. This notice confirms that your business meets the exemption criteria.
+* **Steps to comply**:
+	1. Determine if your business is eligible for a police exemption (e.g., small businesses, low-risk activities).
+	2. Gather required documents, such as business registration and proof of address.
+	3. Submit an application for a Police Exemption Notice to the Israel Police.
+* **Estimated cost (in NIS)**: 0 - 100 (dependent on the specific requirements and documentation needed)
+* **Estimated time to complete**: 1-3 weeks (dependent on the application process and the complexity of the exemption request)
+* **Responsible authority**: Israel Police
+* **Priority level**: Medium
+* **Useful links**: 
+	+ https://www.police.gov.il/english/ (Israel Police, in English)
+	+ https://www.gov.il/en/topics/police-exemption (in Hebrew)
+
+**3. General Sanitation Requirements**
+
+* **Name**: General Sanitation Requirements
+* **What it is and why it's needed**: All businesses must adhere to basic hygiene regulations to ensure a clean and safe environment for customers and employees. This includes proper waste disposal, cleaning schedules, and food handling practices.
+* **Steps to comply**:
+	1. Develop and implement a sanitation plan, including waste disposal and cleaning schedules.
+	2. Ensure that all employees are trained on proper hygiene practices.
+	3. Display sanitation certificates and permits in a visible location.
+* **Estimated cost (in NIS)**: 0 - 1,000 (dependent on the specific requirements and implementation costs)
+* **Estimated time to complete**: Ongoing (dependent on the implementation and maintenance of sanitation practices)
+* **Responsible authority**: Israel Ministry of Health and local municipalities
+* **Priority level**: High
+* **Useful links**: 
+	+ https://www.health.gov.il/english/ (Israel Ministry of Health, in English)
+	+ https://www.gov.il/en/topics/food-safety (in Hebrew)

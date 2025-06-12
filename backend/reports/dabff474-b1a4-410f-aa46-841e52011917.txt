@@ -1,0 +1,41 @@
+**Business Compliance Report**
+
+We've categorized the requirements into three main areas: Licensing, Delivery, and Health & Safety. Below, you'll find a clear breakdown of each requirement, including what it is, steps to comply, and priority level.
+
+### Licensing
+
+#### 1. Alcohol Permit
+
+* **What it is and why it's needed:** An Alcohol Permit is a license required for businesses that sell, serve, or distribute alcoholic beverages. This permit ensures that your business complies with laws and regulations related to the sale of alcohol, protecting public health and safety.
+* **Steps to comply:**
+	1. Check with your state's liquor authority (e.g., [TTAB - Texas Alcoholic Beverage Commission](https://www.tabc.texas.gov/)) to determine the specific requirements for your business.
+	2. Submit an application, which typically includes providing business information, paying a fee (varies by state), and undergoing a background check.
+	3. Complete any required training or certification (e.g., TIPS - Training for Intervention ProcedureS).
+* **Cost:** Varies by state (e.g., in Texas, the annual permit fee is around $1,500).
+* **Priority level and urgency:** High (must obtain before selling alcohol).
+
+### Delivery
+
+#### 2. Delivery Registration
+
+* **What it is and why it's needed:** Delivery Registration is required for businesses that offer delivery services. This registration helps ensure that delivery operations meet local regulations, enhancing customer safety and business accountability.
+* **Steps to comply:**
+	1. Check with your local government or transportation authority (e.g., [City of Los Angeles - Department of Transportation](https://www.lacity.org/)) to see if registration is required.
+	2. Gather necessary documents, such as business licenses, insurance, and vehicle information.
+	3. Complete the registration process, which may involve submitting an application and paying a fee.
+* **Cost:** Varies by locality (e.g., in Los Angeles, the annual permit fee is around $150).
+* **Priority level and urgency:** Medium (should obtain before starting delivery operations).
+
+### Health & Safety
+
+#### 3. General Sanitation Requirements
+
+* **What it is and why it's needed:** General Sanitation Requirements are basic hygiene regulations that every business must follow to ensure a clean and safe environment for customers and employees. These requirements help prevent the spread of illnesses and maintain public health.
+* **Steps to comply:**
+	1. Familiarize yourself with local health codes (e.g., [FDA - Food Safety](https://www.fda.gov/food/food-safety)).
+	2. Implement proper sanitation practices, such as regular cleaning and disinfecting, proper waste disposal, and ensuring employee hygiene.
+	3. Display required health and safety certifications (e.g., food handler certificates).
+* **Cost:** Varies (e.g., costs associated with cleaning supplies, employee training).
+* **Priority level and urgency:** High (must comply to ensure public health and safety).
+
+By following these steps and understanding the requirements, your business can ensure compliance and maintain a safe and healthy environment for customers and employees.

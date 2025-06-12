@@ -1,0 +1,60 @@
+### Health Requirements
+
+#### Meat Handling License
+* **What it is and why it matters**: A Meat Handling License is required for any business that serves meat. This license ensures that the business handles and prepares meat in a safe and sanitary manner to protect public health.
+* **Steps to comply**:
+  1. Submit an application to the Israel Ministry of Health (MoH) through their online portal or at a local health department office.
+  2. Provide required documentation, including a business license, kitchen layout, and staff qualifications.
+  3. Pay the required fee (approximately 500-1000 NIS, depending on the jurisdiction).
+  4. Pass a health inspection.
+* **Responsible authority**: Israel Ministry of Health (MoH).
+* **Priority/Urgency**: High.
+
+#### General Sanitation Requirements
+* **What it is and why it matters**: Every business must adhere to basic hygiene regulations to ensure a clean and safe environment for customers and employees. This includes proper waste disposal, cleaning schedules, and staff hygiene practices.
+* **Steps to comply**:
+  1. Familiarize yourself with the Ministry of Health's sanitation guidelines (available on the MoH website).
+  2. Implement sanitation practices in your business, such as regular cleaning and waste disposal.
+  3. Display sanitation certificates or inspection results as required.
+* **Responsible authority**: Israel Ministry of Health (MoH).
+* **Priority/Urgency**: High.
+
+### Fire Safety and Rescue
+
+No specific requirements mentioned.
+
+### Accessibility
+
+#### Accessibility Compliance
+* **What it is and why it matters**: Businesses must comply with Israeli accessibility regulations, ensuring that their premises and services are accessible to people with disabilities.
+* **Steps to comply**:
+  1. Review the Accessibility for People with Disabilities Law, 5748-1988, and the Israeli Ministry of Equality's guidelines.
+  2. Conduct an accessibility audit of your business premises and services.
+  3. Implement necessary adjustments to ensure accessibility (e.g., ramps, accessible restrooms, Braille signage).
+  4. Obtain a compliance certificate from a certified accessibility expert (approximately 500-2000 NIS).
+* **Responsible authority**: Israeli Ministry of Equality.
+* **Priority/Urgency**: Medium.
+
+### Other Regulatory Requirements
+
+#### Delivery Registration
+* **What it is and why it matters**: For delivery-based businesses, registration with the relevant authorities is required to ensure compliance with food safety and transportation regulations.
+* **Steps to comply**:
+  1. Register your delivery business with the Israel Ministry of Transportation and Road Safety.
+  2. Ensure compliance with food safety regulations during transportation (e.g., proper insulation, temperature control).
+  3. Display required permits and licenses on your delivery vehicles.
+* **Responsible authority**: Israel Ministry of Transportation and Road Safety.
+* **Priority/Urgency**: Medium.
+
+#### Police Exemption Notice
+* **What it is and why it matters**: Certain businesses may be exempt from police requirements, such as installing security cameras or alarms. An exemption notice must be obtained from the Israel Police.
+* **Steps to comply**:
+  1. Determine if your business qualifies for an exemption under the relevant regulations (e.g., Form 4.2A, Ministry of Interior).
+  2. Submit an application to the Israel Police, including supporting documentation.
+  3. Pay the required fee (approximately 100-500 NIS).
+* **Responsible authority**: Israel Police, Ministry of Interior.
+* **Priority/Urgency**: Low-Medium.
+
+### Additional Notes
+- Ensure you consult the official Israeli government websites and relevant authorities for the most up-to-date information on regulations and fees.
+- Form 4.2A (Ministry of Interior) may contain additional requirements or exemptions relevant to your business.
