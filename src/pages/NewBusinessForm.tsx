@@ -15,7 +15,6 @@ const NewBusinessForm = () => {
 
   const [requirements, setRequirements] = useState<any[]>([]);
   const [reportText, setReportText] = useState(""); // New: AI report text
-  const [downloadLink, setDownloadLink] = useState(""); // New: download URL
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -33,7 +32,6 @@ const NewBusinessForm = () => {
     setError("");
     setRequirements([]);
     setReportText("");
-    setDownloadLink("");
 
     try {
       const response = await fetch("http://localhost:5000/api/business", {
@@ -64,9 +62,6 @@ const NewBusinessForm = () => {
         setReportText(data.report);
       }
 
-      if (data.download_url) {
-        setDownloadLink(data.download_url);
-      }
 
     } catch (err) {
       console.error("Submission error:", err);
@@ -175,11 +170,6 @@ const NewBusinessForm = () => {
             div: ({node, ...props}) => <div className="markdown-body" {...props} />
           }}>{reportText}</ReactMarkdown>
 
-          {downloadLink && (
-            <a href={`http://localhost:5000${downloadLink}`} download target="_blank" rel="noopener noreferrer">
-              <button className="download-btn">Download Report</button>
-            </a>
-          )}
         </div>
       )}
     </form>
